@@ -2,7 +2,7 @@
 
 int main()
 {
-    char a='E', b='Y', c='C';
+    char a='F', b='Z', c='D';
     int d=a, e=b;
     printf("%d%d", e-d, e-c);
 }
