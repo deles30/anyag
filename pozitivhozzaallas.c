@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-const int TOMB_MERET = 5;
+const int TOMB_MERET = 7;
 
 void abs(int tomb[]) {
     for (int i = 0; i < TOMB_MERET; i++) {
@@ -11,6 +11,6 @@ void abs(int tomb[]) {
 }
 
 int main() {
-    int tomb[] = {21, 48, 47, -48, -68};
+    int tomb[] = {-12, 54, -65, 78, 62, 55, 69};
     abs(tomb);
 }
