@@ -54,7 +54,7 @@ int main(){
     legnagyobb(meret,tomb);
     legkisebb(meret,tomb);
 
-    printf("%s.\n",vizsgal(meret,tomb) ? "Igen,a tomb rendezett" : "Nem rendezett a tomb");
+    printf("%s.\n",vizsgal(meret,tomb) ? "A tomb rendezett" : "A tomb nem rendezett");
     printf("A tomb legnagyobb eleme: %d\n",legnagyobb(meret,tomb));
     printf("A tomb legkisebb eleme: %d\n",legkisebb(meret,tomb));
 
