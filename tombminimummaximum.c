@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-const int TOMB_MERET = 6;
+const int TOMB_MERET = 10;
 
 int tomb_min_elem(int tomb[]) {
     int legkisebb = tomb[0];
@@ -23,7 +23,7 @@ int tomb_max_elem(int tomb[]) {
 }
 
 int main() {
-    int tomb[] = {89, 5, 50, 60, 70, 71};
+    int tomb[] = {54, 24, 2, 56, 12, 69, 21, 15, 45, 32};
     printf("A tomb legkisebb eleme: %d\n", tomb_min_elem(tomb));
     printf("A tomb legnagyobb eleme: %d\n", tomb_max_elem(tomb));
     
