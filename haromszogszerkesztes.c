@@ -3,13 +3,13 @@
 int Haromszog(double a, double b, double c){
 
         if(a<0 || b<0 || c<0){
-            printf("Pozitív számot adjon meg!");
+            printf("Adjon meg harom pozitiv szamot");
         }
         else if (a + b > c && a + c > b && b + c > a){
-            printf("Lehet belőlük háromszöget készíteni.");
+            printf("A haromszog szerkesztheto");
          }
         else{
-            printf("Nem lehet belőlük háromszöget készíteni.");
+            printf("A haromszog nem szerkesztheto");
         }
     return 0;
     }
@@ -18,7 +18,7 @@ int main()
 {
     
     double a,b,c;
-    printf("Adja meg a háromszög 3 oldalát!\n");
+    printf("Adja meg a haromszog harom oldalat\n");
     scanf("%lf %lf %lf",&a,&b,&c);
     Haromszog(a,b,c);
 
